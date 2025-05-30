@@ -1,10 +1,6 @@
 # Vue Modern Snippets
 
-## Snippets
-
-### Vue
-
-#### Vue template snippets
+### Vue template snippets
 
 These snippets will help you create the basic outline for a Vue component.
 
@@ -30,7 +26,7 @@ Below are each of Vue lifecycle hooks snippet shortcuts, with selectors:
 - vondeactived
 - vonserverprefetch
 
-#### Vue script snippets
+### Vue script snippets
 
 These snippets are usable either in Vue or Typescript files; These are
 the 'bread and butter' snippets to supercharge your workflow.
