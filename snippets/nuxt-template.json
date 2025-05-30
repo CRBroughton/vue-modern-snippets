@@ -1,0 +1,17 @@
+{
+    "Nuxt useFetch": {
+      "prefix": "nuxtusefetch",
+      "body": [
+        "const { ${1} } = ${2:useFetch}('${3}', {${4}})"    
+      ],
+      "description": "Nuxt useFetch"
+    },
+    "Nuxt useAsyncData": {
+      "prefix": "nuxtasyncdata",
+      "body": [
+        "const { ${1} } = await useAsyncData('${2}', () => ${3:$fetch}('${4}'), {${5}})"
+      ],
+      "description": "Nuxt useAsyncData"
+    }
+  }
+  

@@ -1,0 +1,43 @@
+{
+  "Vue Single File Component Setup Composition API with Typescript": {
+    "prefix": "vbase",
+    "body": [
+      "<script setup lang=\"ts\">",
+      "",
+      "</script>",
+      "",
+      "<template>",
+      "\t<div>",
+      "",
+      "\t</div>",
+      "</template>",
+      "",
+      "<style scoped>",
+      "",
+      "</style>"
+    ],
+    "description": "Base for Vue File Setup Composition API - Typescript"
+  },
+  "Vue Single File Generic Component": {
+    "prefix": "vbase-generic",
+    "body": [
+      "<script setup lang=\"ts\" generic=\"T\">",
+      "const props = defineProps<{",
+      "items: T[]",
+      "selected: T",
+      "}>()",
+      "",
+      "</script>",
+      "",
+      "<template>",
+      "\t<div>",
+      "",
+      "\t</div>",
+      "</template>",
+      "",
+      "<style scoped>",
+      "",
+      "</style>"
+    ]
+  }
+}
