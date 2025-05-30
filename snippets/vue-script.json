@@ -111,15 +111,15 @@
     "body": ["const ${1:name} = ref(${2:initialValue})"],
     "description": "Vue Ref"
   },
-  "Vue Lifecycle Hooks - onMounted": {
-    "prefix": "vonmounted",
-    "body": ["onMounted(() => {${1}})"],
-    "description": "Vue Mounted Lifecycle hook"
-  },
   "Vue Lifecycle Hooks - onBeforeMount": {
     "prefix": "vonbeforemount",
     "body": ["onBeforeMount(() => {${1}})"],
     "description": "Vue onBeforeMount Lifecycle hook"
+  },
+  "Vue Lifecycle Hooks - onMounted": {
+    "prefix": "vonmounted",
+    "body": ["onMounted(() => {${1}})"],
+    "description": "Vue Mounted Lifecycle hook"
   },
   "Vue Lifecycle Hooks - onBeforeUpdate": {
     "prefix": "vonbeforeupdate",
@@ -131,20 +131,40 @@
     "body": ["onUpdated(() => {${1}})"],
     "description": "Vue onUpdated Lifecycle hook"
   },
+  "Vue Lifecycle Hooks - onBeforeUnmount": {
+    "prefix": "vonbeforeunmount",
+    "body": ["onBeforeUnmount(() => {${1}})"],
+    "description": "(beforeDestroy) Vue onBeforeUnmount Lifecycle hook"
+  },
+  "Vue Lifecycle Hooks - onUnmounted": {
+    "prefix": "vonunmounted",
+    "body": ["onUnmounted(() => {${1}})"],
+    "description": "(destroyed) Vue onUnmounted Lifecycle hook"
+  },
   "Vue Lifecycle Hooks - onErrorCaptured": {
     "prefix": "vonerrorcaptured",
     "body": ["onErrorCaptured(() => {${1}})"],
     "description": "Vue onErrorCaptured Lifecycle hook"
   },
-  "Vue Lifecycle Hooks - onUnmounted": {
-    "prefix": "v3onunmounted",
-    "body": ["onUnmounted(() => {${1}})"],
-    "description": "(destroyed) Vue onUnmounted Lifecycle hook"
+  "Vue Lifecycle Hooks - onRenderTracked": {
+    "prefix": "vonrendertracked",
+    "body": ["onRenderTracked(() => {${1}})"],
+    "description": "Vue onRenderTracked Lifecycle hook"
   },
-  "Vue Lifecycle Hooks - onBeforeUnmount": {
-    "prefix": "vonbeforeunmount",
-    "body": ["onBeforeUnmount(() => {${1}})"],
-    "description": "(beforeDestroy) Vue onBeforeUnmount Lifecycle hook"
+  "Vue Lifecycle Hooks - onActivated": {
+    "prefix": "vonactivated",
+    "body": ["onActivated(() => {${1}})"],
+    "description": "Vue onActivated Lifecycle hook"
+  },
+  "Vue Lifecycle Hooks - onDeactivated": {
+    "prefix": "vondeactivated",
+    "body": ["onDeactivated(() => {${1}})"],
+    "description": "Vue onDeactivated Lifecycle hook"
+  },
+  "Vue Lifecycle Hooks - onServerPrefetch": {
+    "prefix": "vonserverprefetch",
+    "body": ["onServerPrefetch(() => {${1}})"],
+    "description": "Vue onServerPrefetch Lifecycle hook"
   },
   "Plugin import": {
     "prefix": "vplugin",

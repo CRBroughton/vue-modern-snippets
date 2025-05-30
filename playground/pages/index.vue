@@ -1,4 +1,6 @@
 <script setup lang="ts">
+onActivated
+
 </script>
 
 <template>
