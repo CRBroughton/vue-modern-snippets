@@ -5,3 +5,4 @@ bun.lockb
 package.json
 tsconfig.json
 .changeset
+playground
